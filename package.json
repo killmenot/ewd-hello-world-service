@@ -1,0 +1,16 @@
+{
+  "name": "ewd-helloworld-service",
+  "version": "1.0.0",
+  "description": "The example of service module for QEWD",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "author": "Alexey Kucherenko",
+  "homepage": "https://github.com/killmenot/ewd-helloworld-service#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killmenot/ewd-helloworld-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/killmenot/ewd-helloworld-service/issues"
+  }
+}
