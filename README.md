@@ -1,6 +1,6 @@
 # EWD Hello World service
 
-EWD Mock is Hello Worlds service module for QEWD that is used in testing purposes.
+EWD Hello World service is demo module for QEWD that is used in testing purposes.
 
 ## License
 
