@@ -1,16 +1,29 @@
 {
-  "name": "ewd-helloworld-service",
+  "name": "ewd-service-mock",
   "version": "1.0.0",
   "description": "The example of service module for QEWD",
   "main": "index.js",
   "license": "Apache-2.0",
   "author": "Alexey Kucherenko",
-  "homepage": "https://github.com/killmenot/ewd-helloworld-service#readme",
+  "homepage": "https://github.com/killmenot/ewd-service-mock#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/killmenot/ewd-helloworld-service.git"
+    "url": "git+https://github.com/killmenot/ewd-service-mock.git"
   },
   "bugs": {
-    "url": "https://github.com/killmenot/ewd-helloworld-service/issues"
+    "url": "https://github.com/killmenot/ewd-service-mock/issues"
+  },
+  "scripts": {
+    "lint": "jshint lib index.js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "debug": "^3.1.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "pre-commit": "^1.2.2"
   }
 }
